@@ -29,8 +29,8 @@ const ConfirmarCuenta = () => {
       }
       setCargando(false);
     }
-    confirmarCuenta();
-  });
+    return () => confirmarCuenta();
+  },[]);
 
   return (
     <>
