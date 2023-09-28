@@ -30,7 +30,7 @@ const ConfirmarCuenta = () => {
       setCargando(false);
     }
     return () => confirmarCuenta();
-  },[]);
+  },[id]);
 
   return (
     <>
